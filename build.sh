@@ -25,7 +25,7 @@ chmod 751 $WORK/echo.bin.sh
 echo "Compiling  project"
 bash $WORK/echo.bin.sh
 
-if [ $? == 0 ]; then cp  $WORK/echo.bin.sh $DIST/echo.bin.sh
+if [ $? == 0 ]; then cp  $WORK/echo.bin.sh $DIST/echo.bin.sh; fi
  
 #Deploye Code
 echo "Cleaning project"
